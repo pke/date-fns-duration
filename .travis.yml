@@ -1,9 +1,11 @@
+version: 1.0
 language: node_js
 node_js:
   - node
   - lts/*
-after_install: npm i date-fns@~2.0.0
+before_script: npm i date-fns@~2.0.0
 deploy:
+  edge: true
   provider: npm
   email: "$NPM_EMAIL"
   api_key: "$NPM_TOKEN"
