@@ -1,6 +1,6 @@
 {
   "name": "date-fns-duration",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Supplemental package for date-fns to add/subtract ISO 8601 durations",
   "main": "index.js",
   "scripts": {
