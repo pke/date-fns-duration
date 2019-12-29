@@ -2,3 +2,4 @@
 *.test.js
 .eslintrc.yml
 .vscode
+coverage
