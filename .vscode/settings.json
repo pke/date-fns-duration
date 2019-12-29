@@ -1,0 +1,13 @@
+{
+  "cSpell.words": [
+    "linebreak",
+    "readonly"
+  ],
+  "cSpell.ignorePaths": [
+    "**/package-lock.json",
+    "**/node_modules/**",
+    "**/vscode-extension/**",
+    "**/.git/objects/**",
+    ".vscode"
+  ]
+}
