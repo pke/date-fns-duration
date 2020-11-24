@@ -4,11 +4,11 @@
   "description": "Supplemental package for date-fns to add/subtract ISO 8601 durations",
   "main": "index.js",
   "scripts": {
-    "test": "mochista -t index.test.js",
+    "test": "jest index.test.js",
     "cov": "npm t -- --coverage",
     "testw": "npm t -- --coverage --watch",
     "tsc": "tsc",
-    "lint": "eslint"
+    "lint": "eslint *.js"
   },
   "repository": "pke/date-fns-duration",
   "keywords": [
@@ -17,7 +17,7 @@
     "duration",
     "plugin"
   ],
-  "author": "Philipp Kursawe <phil.kursawe@gmail.com> (https://pke.fyi/)",
+  "author": "Philipp Kursawe <pke@pke.fyi> (https://pke.fyi/)",
   "license": "MIT",
   "peerDependencies": {
     "date-fns": "~2.0.0"
@@ -26,7 +26,7 @@
     "chai": "4.2.0",
     "eslint": "6.8.0",
     "eslint-plugin-mocha": "6.2.2",
-    "mochista": "0.22.0"
+    "jest": "26.6.3"
   },
   "dependencies": {
     "date-fns": "2.8.1"
