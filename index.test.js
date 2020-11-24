@@ -1,4 +1,3 @@
-/** eslint-globals: describe, it */
 const { assert } = require("chai") 
 const { toDate, parseISO } = require("date-fns")
 
